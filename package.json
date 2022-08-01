@@ -1,0 +1,6 @@
+{
+  "homepage": "https://fenom500.github.io/"
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
