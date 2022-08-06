@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import './Tab.css'
 
 const tabList = [
   {
@@ -24,7 +24,7 @@ export class Tab extends Component {
   render() {
     return (
       <div>
-        <ul>
+        <ul className='navbar-main'>
           {tabList.map((obj,index) => {
             return <li key={index}>
                <a className={obj.cName} href={obj.link}>
