@@ -19,7 +19,6 @@ const tabList = [
   },
 ]
 
-
 export class Tab extends Component {
   render() {
     return (
