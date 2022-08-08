@@ -1,10 +1,5 @@
-.navbar-main {
+.NavContainer{
     display: flex;
     flex-direction: row;
-}
-
-.navbar-links {
-    background-color: green;
-    justify-content: right;
-    align-items: right;
+    justify-content: space-between;
 }

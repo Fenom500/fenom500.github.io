@@ -1,10 +1,13 @@
-.navbar-main {
-    display: flex;
+.navbar-link-container {
+    display:flex;
     flex-direction: row;
+    list-style: none;
 }
 
 .navbar-links {
     background-color: green;
-    justify-content: right;
-    align-items: right;
+    justify-content: flex-end;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-inline: 5px;
 }

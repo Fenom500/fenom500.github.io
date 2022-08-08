@@ -2,6 +2,6 @@
     margin: 0;
     background-color: gray;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
   }

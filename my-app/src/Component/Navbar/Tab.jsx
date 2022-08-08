@@ -23,7 +23,7 @@ export class Tab extends Component {
   render() {
     return (
       <div>
-        <ul className='navbar-main'>
+        <ul className='navbar-link-container'>
           {tabList.map((obj,index) => {
             return <li key={index}>
                <a className={obj.cName} href={obj.link}>
